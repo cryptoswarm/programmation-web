@@ -1,0 +1,48 @@
+table.lab4{
+	border-width: 4px;
+	border-style: dashed;
+	empty-cells: hide;
+}
+table.langues{
+	border-style: double;
+	border-width: 5px;
+	
+}
+table.continent{
+	border-width: 2px;
+	border-style: hidden;/* on cache la bordure*/
+	border-top-style:solid; /* on montre seulement la bordure supérieur pour faire comme une ligne*/
+	margin: 4px;
+   border-spacing:1px;/*espace entre cellules*/
+  
+}
+td,th{
+	border-style: solid;
+	text-align: center;
+	vertical-align: middle;
+}
+table.langues td{
+	vertical-align: top;
+	
+}
+
+th{
+	background-color: gray;
+	border-color:#FF00FF;
+    cursor: move;/* forme du curseur quand on place la souris sur l'élément actif.*/
+}
+table.continent td{
+	border-width:1px;
+	border-style:groove;
+	text-align: left;
+}
+caption{ /*etiquette de table*/
+	color: blue;
+	font-size: 14px;
+	font-variant: small-caps;
+}
+
+
+td#ete{
+	background-color: yellow;
+}

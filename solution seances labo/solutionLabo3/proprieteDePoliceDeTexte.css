@@ -1,0 +1,39 @@
+/*font : : toutes les proprietes
+font-weight : gras (bold) ou non
+font-family : famille de police ("times new Roman","Verdana",...)
+font-style : style de la police (normal, italic,)
+font-size : taille de la police (en em, pixels) 1em=16 pixels
+font-variant : petit majuscule (small-caps) ou non.
+*/
+/*******ordre des valeurs de font*****
+
+font −style
+font −variant
+font −weight
+font −size/line −height 
+font −family
+
+
+
+
+
+
+.tout{
+font : 15 px arial , sans − serif ;
+}
+p{
+font −family : Arial ;
+font −size : 12 px ;
+font −weight : bold ;
+}
+h1{
+font −size : 2.7 em;
+font −style : italic ;
+font −variant : small −caps ;
+}
+
+*/
+
+/*****pour la conversion des unités de taille : http://pxtoem.com/  ****/
+
+

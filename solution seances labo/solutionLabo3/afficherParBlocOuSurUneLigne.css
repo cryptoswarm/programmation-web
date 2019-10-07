@@ -1,0 +1,22 @@
+.ligne{
+        display : inline;
+
+}
+.bloc{
+        display : block
+}
+li{
+    background −image : url('images/sqpurple.gif') ;
+    background −repeat : no−repeat;
+    list−style−type : none ;
+    background −position : 0 0.32em;
+    padding − left : 20 px ;
+}
+
+
+/******
+display:inline ;       Affiche sur la meme ligne. Pas de retour a la ligne
+display:block ;        Affiche dans un bloc et fait un retour a la ligne
+display:inline-block ; Affiche sur meme ligne (inline) mais le contenu de l'element est affiché dans bloc (block) Ce qui permet
+                        d'afficher les boites alignées horizontalement
+                        ****/

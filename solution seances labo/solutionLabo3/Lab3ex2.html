@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>INF2050 lab03ex2</title>
+        <meta charset="utf-8" />
+        <link  link rel="stylesheet" type="text/css"  href="bootstrap.min.css">
+        <!----url par defaut (balise base) -----target ecran -->
+        <base href="pages/" target="_ecran">
+        <!---A <meta> viewport element gives the browser instructions on how to control the page's dimensions and scaling.-->
+        <!---The width=device-width part sets the width of the page to follow the screen-width 
+            of the device (which will vary depending on the device).-->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+    </head>
+    <body> 
+            <div class="container-fluid">
+        <!----The <div> element is often used as a container for other HTML elements --->
+            <!---to style them with CSS or to perform certain tasks with JavaScript.-->
+            <div class="w3-container">
+         <!----balise figure -->
+            <figure>
+                <figure>
+
+                    <figcaption> 
+                        <nav>
+                            <a href="http://www.uqam.ca">UQAM</a> |
+                            <a href="http://www.etsmtl.ca">ETS</a> |
+                            <a href="page1.html">page1</a> |
+                            <a href="http://www.uqac.ca">UQAC</a> 
+                        </nav>
+                    </figcaption>
+                </figure>
+                    <!----creation d'une fenetre balise iframe dans la figure---->
+
+                    <iframe srcdoc="<h1>Ecran</h1>" name="ecran" width="600" height="450" 
+                                                                    src="http://www.uqam.ca">
+                    </iframe>
+
+                    <figcaption>
+                        <nav>
+                                <a href="http://www.mcgill.ca">MCGILL</a> |
+                                <a href="http://www.concordia.ca">CONCORDIA</a> |
+                                <a href="page2.html">page2</a> |
+                                <a href="page2.html" target="_self">page2</a> 
+                             
+                        </nav>
+                    </figcaption>
+
+            </figure>
+           
+        </div>
+        </div>
+        </body>
+</html>
+        

@@ -1,0 +1,58 @@
+/****selecteurs et declaration *******
+                                    *
+Li {color:#FF00FF}                   *
+#cBleu2 {color:blue;}               *
+.cRouge {color:red;}                 *
+Li .cChocolat {color:#D2691E;}      *
+#cBleu {color:blue;}                 *
+                                    *
+**************************************/
+
+/*on aurait pu ecrire #cBlue, #cBlue2 {color:blue;}, regrouper les selecteurs
+/*Selecteur en brefs: 
+/* .className style a tous les elements dont l'attribut class a la valeur className
+/* #idName style a l'element dont l'attribut id a la valeur idName (en principe un seul element dans le document)
+/* E F elements de selecteur F descendants d'un element de selecteur E
+/*   E > F s'applique aux elements selectionnés par F et descendant direct de  E
+
+/*  E + F tout selecteur F qui vient imediatement apres un selecteur E * selecteur universel, s'applique a tous les elements du document
+Attribut element[attributeName] (ou element[attributeName=attrValue]) 􀀀 */
+ 
+/* ::first-letter premiere lettre (ex h1::first-letter{color:red;})
+::first-line premiere ligne
+::first-child premier ls
+::before inserer un contenu avant l'element . (ex h1::before{content:"Titre: ";})
+::after inserer contenu apres .
+:hover souris sur l'element  */
+
+/**********proprietes de stylisation des liens ***********
+
+a :link lien normal                  *
+a :visited lien visité                *
+a :hover souris sur le lien            *
+a :active on clique sur le lien      *
+hover apres link et visited           *
+hover apres hover                     *
+
+****************************/
+
+a : link {
+            color:#FF00FF;
+            text-decoration :none;
+            }
+a : visited  {
+                color:red;
+                text-decoration :none;
+                }  
+a :hover{
+            color:blue;
+            background-color:#FF704D;
+            }  
+a : active { /*Maintenir souris cliquée et voire*/
+                color:#D2691E;
+                background-color : yellow;
+                text-declaration:underline;
+            }   
+
+
+

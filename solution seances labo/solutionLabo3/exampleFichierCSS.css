@@ -1,0 +1,17 @@
+h1{
+    color : red;
+     font-size :48px;
+    }
+p{
+    color:blue;
+}
+/*en haut pourrait etre ecrites en une seule ligne:h1{color : red;font-size :48px;}p{color:blue;*/
+/*****baliise****nom de la balise s'applique par default a la balise {color:#FF00FF;}*/
+/****id**** : nom d'identication precede du caractere (# ) S'applique a l'element de cet id:  #cBleu {color : blue ;} */
+/***class*** : nom de la classe precede du caractere : (point) S'applique a tout element de cette classe:  . cRouge {color : red ;} */
+/***class pour un element : balise:nomClasse 􀀀 Ne s'applique qu'a cette 
+                balise avec cette classe. 
+                li .cChocolat { color :#D2691E;}****}
+/***id a priorite sur class et class a priorite sur balise***/               
+
+
